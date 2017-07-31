@@ -7,3 +7,5 @@ Run `setup.sh` which will clone the version of ATIRE used, and build it.
 Run the `tweets.sh` script. This will create all the indexes, and perform all the runs. The indexes are destroyed as they are used, as they consume a substantial amount of diskspace.
 
 Finally, the `cw09b.sh` script, which will index and search the cw09b segments individually.
+
+At the end, the `*timings` files can be parsed for millisecond query timings, the index logs will have the index sizes, and the `*run` files can be processed by `trec_eval` to get metrics.
