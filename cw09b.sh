@@ -5,7 +5,7 @@ search="./atire/bin/atire -k1000 -l0 -et -RBM25 -QN:t -sa"
 cw09b="/collections/ClueWeb09b/ClueWeb09_English_1"
 
 ## Index the segments at each bit level
-for s in ${cw09b}/en*
+for s in ${cw09b}/en00*
 do
 	for q in `seq 2 1 16`
 	do
